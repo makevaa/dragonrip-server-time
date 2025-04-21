@@ -1,9 +1,10 @@
-# Dragonrip Server Time 
+# dragonrip-server-time
 
-🐵 Tampermonkey userscript to show a server time clock for [the browser game Dragonrip](https://dragonrip.com/).
-The time element is inserted at the bottom of the game logo element.
+🐵 Tampermonkey userscript to show a server time clock for the browser game [Dragonrip](https://dragonrip.com/).
+The time element is inserted at the bottom of the game logo box.
 
-🍴 Available on GreasyFork: [greasyfork.org/en/scripts/532949-dragonrip-toolbar](https://greasyfork.org/en/scripts/532949-dragonrip-toolbar)
+🍴 Available on GreasyFork: [greasyfork.org/en/scripts/533554-dragonrip-server-time](https://greasyfork.org/en/scripts/533554-dragonrip-server-time)
+
 
 ## 🛠 Settings
 The <code>settings</code> object has a few boolean settings to customize the clock:
@@ -12,10 +13,7 @@ The <code>settings</code> object has a few boolean settings to customize the clo
 - <code>use24HourClock</code>: use 24h clock, 12h is used on default
 - <code>fancyBox</code>: use some additioal CSS styling for the time element
 
-
-
-
-## Preview
+## 💎 Preview
 ![Dragonrip Server Time 24h preview](https://i.imgur.com/DDSzLCj.png "Dragonrip Server Time 24h preview")
 
 ![Dragonrip Server Time 12h preview](https://i.imgur.com/20rScQS.png "Dragonrip Server Time 12h preview")
