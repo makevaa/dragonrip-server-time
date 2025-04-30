@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dragonrip Server Time
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Server time display for Dragonrip.com
 // @author       Kronos1
 // @match         *://*.dragonrip.com/*
@@ -15,10 +15,12 @@
     'use strict';
 
     const settings = {
+        clockLabel:"Server time",
         runningClock: true, // Keep updating clock time (updates every second)
         enableSeconds: false, // Include seconds in the time
         use24HourClock: true, // Toggle between 12h/24h time format
         fancyBox: false, // Additional styling for the time box element
+  
     }
     
     const mainCss = `
@@ -103,7 +105,7 @@
         // Create text label
         const label = document.createElement('div');
         label.classList.add('label');
-        label.innerHTML = 'Server time';
+        label.innerHTML = settings.clockLabel;
 
         // Create time
         const time = document.createElement('div');

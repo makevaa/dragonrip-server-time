@@ -7,7 +7,8 @@ The time element is inserted at the bottom of the game logo box.
 
 
 ## 🛠 Settings
-The <code>settings</code> object has a few boolean settings to customize the clock:
+The <code>settings</code> object has properties to customize the clock:
+- <code>clockLabel</code>: label to show before the time ("Server time" on default)
 - <code>runningClock</code>: keep updating the clock even when page is not reloaded (updates once/sec)
 - <code>enableSeconds</code>: show seconds in the time, otherwise only hours and minutes are shown
 - <code>use24HourClock</code>: use 24h clock, 12h is used on default
