@@ -20,7 +20,7 @@
         enableSeconds: false, // Include seconds in the time
         use24HourClock: true, // Toggle between 12h/24h time format
         fancyBox: false, // Additional styling for the time box element
-  
+       
     }
     
     const mainCss = `
